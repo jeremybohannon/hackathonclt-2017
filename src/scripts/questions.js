@@ -20,7 +20,7 @@ $('.question input').keypress(function (e) {
   }
 });
 
-$('.next').click(function () {
+$('.next, .interest').click(function () {
   $('.question.active').removeClass('active');
   const next = $(this).closest('div.question').next();
   next.addClass('active');

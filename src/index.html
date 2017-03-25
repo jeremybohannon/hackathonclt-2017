@@ -250,10 +250,10 @@
 
         <div class="row question" style="text-align:center;">
           <div class="col s12">
-            <h3 style="text-align:left">What are your interests? (choose 3)</h3>
+            <h3 style="text-align:left">What are your interests?</h3>
             <div class="row">
               <div class="col s4">
-                <div class="card hoverable" tabindex="0">
+                <div class="card hoverable interest" tabindex="0" id="sports">
                   <div class="card-content">
                     <i class="material-icons" style="font-size: 6rem">pool</i>
                     <span class="card-title">Sports</span>
@@ -261,7 +261,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable" tabindex="0">
+                <div class="card hoverable interest" tabindex="0" id="science">
                   <div class="card-content">
                     <img src="beaker.png" width="90">
                     <span class="card-title">Science</span>
@@ -269,7 +269,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable" tabindex="0">
+                <div class="card hoverable interest" tabindex="0" id="arts">
                   <div class="card-content">
                     <i class="material-icons" style="font-size: 6rem">palette</i>
                     <span class="card-title">Arts</span>
@@ -277,7 +277,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable" tabindex="0">
+                <div class="card hoverable interest" tabindex="0" id="reading">
                   <div class="card-content">
                     <i class="material-icons" style="font-size: 6rem">book</i>
                     <span class="card-title">Reading</span>
@@ -285,7 +285,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable" tabindex="0">
+                <div class="card hoverable interest" tabindex="0" id="games">
                   <div class="card-content">
                     <i class="material-icons" style="font-size: 6rem">videogame_asset</i>
                     <span class="card-title">Games</span>
@@ -293,7 +293,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable" tabindex="0">
+                <div class="card hoverable interest" tabindex="0" id="outdoors">
                   <div class="card-content">
                     <i class="material-icons" style="font-size: 6rem">local_florist</i>
                     <span class="card-title">Outdoors</span>
@@ -309,7 +309,7 @@
 
         <div class="row question">
           <div class="col s12">
-            <h3>Tell us more about your interest in &lt;blank&gt;</h3>
+            <h3>Tell us more about your interest in <span id="category"></span></h3>
             <div class="row" id="interests"></div>
           </div>
           <div class="row">

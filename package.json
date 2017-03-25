@@ -21,6 +21,7 @@
     "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
+    "array-to-sentence": "^1.1.0",
     "split-array": "^1.0.1"
   }
 }
