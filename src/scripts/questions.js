@@ -21,8 +21,9 @@ $('.question input').keypress(function (e) {
 });
 
 function goto() {
-  const node = $('div.active').last()[0];
-  $('#application').scrollTop({
+  const node = $('div.active')[0];
+  console.log(node);
+  $('#application').animate({
     scrollTop: node.offsetTop - (window.innerHeight / 2) + (node.offsetHeight * (1/3)),
   }, 1000);
 }
