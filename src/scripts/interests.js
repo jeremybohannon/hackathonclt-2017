@@ -14,7 +14,7 @@ $('.interest').click(function () {
   custom.forEach((interest, i) => {
     $('#interests').children().eq(i % 3).append(`
       <p>
-        <input type="checkbox" class="filled-in" id="filled-in-box-${i}" checked="checked" />
+        <input type="checkbox" class="filled-in" id="filled-in-box-${i}"/>
         <label for="filled-in-box-${i}">${interest}</label>
       </p>
     `);
