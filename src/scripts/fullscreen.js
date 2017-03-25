@@ -7,4 +7,4 @@ $('#application').modal({
 $('.application-page').css('opacity', 0);
 
 // tmp
-$('#application').modal('open');
+//$('#application').modal('open');
