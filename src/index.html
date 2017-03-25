@@ -144,7 +144,7 @@
             <h3>What's your name?</h3>
             <div class="row">
               <div class="input-field col s6">
-                <input id="name" type="text" class="validate" placeholder="nicholas bread">
+                <input id="name" type="text" class="validate" placeholder="nicholas bread" autofocus>
                 <label for="name">&nbsp;</label>
               </div>
             </div>
@@ -168,7 +168,7 @@
             <h3>What are your interests? (choose 3)</h3>
             <div class="row">
               <div class="col s4">
-                <div class="card hoverable">
+                <div class="card hoverable" tabindex="0">
                   <div class="card-image">
                     <img src="http://placehold.it/200x200">
                     <span class="card-title">Card Title</span>
@@ -176,7 +176,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable">
+                <div class="card hoverable" tabindex="0">
                   <div class="card-image">
                     <img src="http://placehold.it/200x200">
                     <span class="card-title">Card Title</span>
@@ -184,7 +184,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable">
+                <div class="card hoverable" tabindex="0">
                   <div class="card-image">
                     <img src="http://placehold.it/200x200">
                     <span class="card-title">Card Title</span>
@@ -192,7 +192,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable">
+                <div class="card hoverable" tabindex="0">
                   <div class="card-image">
                     <img src="http://placehold.it/200x200">
                     <span class="card-title">Card Title</span>
@@ -200,7 +200,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable">
+                <div class="card hoverable" tabindex="0">
                   <div class="card-image">
                     <img src="http://placehold.it/200x200">
                     <span class="card-title">Card Title</span>
@@ -208,7 +208,7 @@
                 </div>
               </div>
               <div class="col s4">
-                <div class="card hoverable">
+                <div class="card hoverable" tabindex="0">
                   <div class="card-image">
                     <img src="http://placehold.it/200x200">
                     <span class="card-title">Card Title</span>
@@ -217,35 +217,36 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="row question">
-            <div class="col s12">
-              <h3>Tell us more about your interest in &lt;blank&gt;</h3>
-              <div class="row">
-                <div class="input-field col s6">
-                  <p>
-                    <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
-                    <label for="filled-in-box">Filled in</label>
-                  </p>
-                </div>
+        <div class="row question">
+          <div class="col s12">
+            <h3>Tell us more about your interest in &lt;blank&gt;</h3>
+            <div class="row">
+              <div class="input-field col s6">
+                <p>
+                  <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+                  <label for="filled-in-box">Filled in</label>
+                </p>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="row question">
-            <div class="col s12">
-              <h3>Where are you located?</h3>
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="zip" type="number" class="validate" placeholder="25101">
-                  <label for="zip">&nbsp;</label>
-                </div>
+        <div class="row question">
+          <div class="col s12">
+            <h3>Where are you located?</h3>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="zip" type="number" class="validate" placeholder="25101">
+                <label for="zip">&nbsp;</label>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 </body>

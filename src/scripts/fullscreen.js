@@ -1,12 +1,10 @@
 $('#application').modal({
   ready() {
     $('.application-page').animate({ opacity: 1 }, 300);
-  },
-  complete: hideApplication
+  }
 });
 
-hideApplication();
+$('.application-page').css('opacity', 0);
 
-function hideApplication() {
-  $('.application-page').css('opacity', 0);
-}
+// tmp
+$('#application').modal('open');
