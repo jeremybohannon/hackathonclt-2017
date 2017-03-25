@@ -40,6 +40,14 @@ module.exports = {
       },
       template: 'src/index.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'thanks.html',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true
+      },
+      template: 'src/thanks.html'
+    }),
     new ExtractTextPlugin('main.css')
   ]
 };
