@@ -1,0 +1,75 @@
+{
+  "sports": [
+    "Boating",
+    "Swimming",
+    "Soccer",
+    "Football",
+    "Softball",
+    "Baseball",
+    "Basketball",
+    "Volleyball",
+    "Tennis",
+    "Track Meets",
+    "Golf",
+    "Cheerleading",
+    "Wrestling",
+    "Racquetball",
+    "Bowling",
+    "Ping Pong ",
+    "Bicycling",
+    "Badminton",
+    "Skating",
+    "Weight Lifting",
+    "Horseback riding",
+    "Auto Racing",
+    "Kites",
+    "Gymnastics"
+  ],
+  "science": [
+    "Auto Mechanics",
+    "Electronics",
+    "Space Science",
+    "Blogging"
+  ],
+  "arts": [
+    "Drawing",
+    "Painting",
+    "Sewing",
+    "Cooking",
+    "Ceramics",
+    "Photography",
+    "Band",
+    "Singing",
+    "Acting",
+    "Dancing",
+    "Watching Live Theater",
+    "Woodwork",
+    "Model Cars",
+    "Model Boats",
+    "Model Airplanes",
+    "Anime",
+    "DIY",
+    "Legos"
+  ],
+  "reading": [
+    "Comic Books",
+    "Newspapers",
+    "Books"
+  ],
+  "games": [
+    "Card Games",
+    "Checkers",
+    "Chess",
+    "Dominoes",
+    "Board Games",
+    "Video Games"
+  ],
+  "outdoor": [
+    "Animals",
+    "Gardening",
+    "Star Gazing",
+    "Camping",
+    "Fishing",
+    "Hiking"
+  ]
+}
