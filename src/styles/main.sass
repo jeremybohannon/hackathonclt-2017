@@ -1,13 +1,21 @@
 @import "materialize"
 
+.brand-logo img
+  height: 44px !important
+  margin: 10px 0
+
 section
   padding: 20px 0
 
 #landing
   background-image: url('http://placehold.it/600x200/efefef/efefef')
   background-size: cover
-  color: white
+  color: #333
   text-align: center
+  padding: 5% 0
+
+  h1
+    margin: 0
 
 .steps
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5c2e91+0,cec0de+100 */
@@ -34,3 +42,12 @@ section
 .application-page
   background-color: #efefef
   color: #333
+
+  .question
+    margin-bottom: 10%
+
+  .question:not(.active)
+    opacity: 0.2
+
+  input
+    font-size: 2rem
